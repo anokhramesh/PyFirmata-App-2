@@ -2,7 +2,7 @@
 from tkinter import *
 #import serial
 #arduinoData = serial.Serial('com11', 9600)
-from pyfirmata import Arduino, util#importing Arduino and utility from pyfirmata mpdule
+from pyfirmata import Arduino, util#importing Arduino and utility from pyfirmata module
 board = Arduino('Com11')# Create a variable name board and assign the Arduino board and COM Port
 root=Tk()
 root.geometry('500x600')
